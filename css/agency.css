@@ -659,7 +659,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #333;
 }
 
 section#contact .form-group {
@@ -865,3 +865,5 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+#aboutbio{ margin-left: -95px;}
