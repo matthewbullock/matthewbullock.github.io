@@ -867,3 +867,11 @@ body {
 }
 
 #aboutbio{ margin-left: -95px;}
+
+#myCarousel2{width: 200px; height: 340px;}
+  
+#myCarousel2 img {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+  }
