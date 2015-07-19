@@ -15,7 +15,7 @@ console.log()
  if(haswon===true)
  {
  	//alert("u won")
- 	alert(activeclass + " WON!!!");
+ 	alert(activeclass + " won the game.");
 
  }
 };
@@ -124,13 +124,13 @@ var checkWin = function(array)
    	for(var i = 0;i <= array.length; i++)
   	{
   		var currentCellClass = "";
-		if($("#"+array[i]).hasClass("player1"))
+		if($("#"+array[i]).hasClass("Red"))
 		{
-			currentCellClass="player1";
+			currentCellClass="Red";
 		}
-		else if($("#"+array[i]).hasClass("player2")) 
+		else if($("#"+array[i]).hasClass("Yellow")) 
 		{
-			currentCellClass="player2";
+			currentCellClass="Yellow";
 		}
 
         if ($("#" + array[i+1]).hasClass(currentCellClass))

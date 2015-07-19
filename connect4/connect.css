@@ -46,7 +46,7 @@ div{
 
 #activeplayer
 {
-background-color: black;
+
 height: 50px;
 margin: 5px;
 width:300px;
@@ -55,7 +55,9 @@ margin-left: auto;
 
 }
 #activeplayer h2 {
-color: white;
+  font-size: 15px;
+  margin-top: -10px;
+  color: white;
 
 
 }
@@ -77,8 +79,8 @@ color: white;
 h1    
     {
     font-size: 50px;
-    color:Black;
-    background-color: white;
+    color: #fed136;
+    
     width:580px;
       margin-left: auto;
    margin-right: auto;
@@ -93,21 +95,20 @@ html, body
     }
 
 
-.player1 {
+.Red {
 
         
         
-        background-image: url("http://www.buckybox.com/images/team-joshua-63101086.jpg");
-        background-size: cover;
+        background-color:red;
         
         
 
 }
-.player2 {
+.Yellow {
 
 
-        background-image: url("https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAALQAAAAJGVjNzcwYzQzLWNmOTUtNDEzZS04ZTc3LTFjZjZhZTA0YTQwZg.jpg");
-        background-size: cover;
+        background-color:#fed136;
+        
 
 }
 
@@ -115,8 +116,8 @@ div{
     position: relative;
     border-radius: 50px;
     background-color: white;
-    height:100px;
-    width:100px;
+    height:75px;
+    width:75px;
 
 }
 

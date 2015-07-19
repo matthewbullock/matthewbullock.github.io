@@ -2,19 +2,23 @@
 <!DOCTYPE html>
 <head>
 <link rel="stylesheet" href="normalize.css">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="connect.css"><link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+   
     <link href="css/agency.css" rel="stylesheet">
+    
  
 
-
+ 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
 
      <script language="JavaScript">
 
@@ -34,6 +38,7 @@
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
 <script src="winningconditions.js"></script>
 <script src="index.js"></script>
 <script src="connect.js"></script>
@@ -78,11 +83,11 @@
 
 </head>
 <body>
+  
 
-
-<h1> Matthew's Connect Four </h1>
-
-<section id = "activeplayer"><h2>Current Turn is: +</h2></section>
+<h1>Connect Four</h1>
+                           
+<section id = "activeplayer"><h2>Current Turn is:<span id ="red" style="color: red"> <br>Red</span> <span id ="yellow" style="display: none;color: #fed136"> <br>Yellow</span></h2></section>
 <section id ="grid"></section>
 <section id ="displayMove"</section>
 
@@ -91,7 +96,9 @@
 
 
 </body>
-<p class = "my_beautiful_button"><button onclick="myFunction()">New Game</button></p>
+<p class = "my_beautiful_button"><button onclick="myFunction()" class="btn btn-default">New Game</button></p>
+
+ <button type="button" class="btn btn-default"> <a href="../index.html" > Close Project</a></button>
 
 <script>
 function myFunction() {

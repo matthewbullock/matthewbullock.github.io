@@ -6,6 +6,14 @@ $('#grid').on('click', function(){
 playerSound.play();
 
 })
+$("#grid").click(function(){
+$("#red").toggle();
+    });
+
+$("#grid").click(function(){
+$("#yellow").toggle();
+    });
+
 
   var connect = new Connect();
   connect.generateGrid(); 
@@ -21,19 +29,19 @@ playerSound.play();
           count++;
           if (count % 2 === 1) {
             //1st player
-           var activeclass = "player1"           
+           var activeclass = "Red"           
            
           }
           else
            {
-            var activeclass = "player2" 
+            var activeclass = "Yellow" 
            
           }
       for (var i = 5; i >= 0; i--) {
 
       
 
-        if (!$(col[i]).hasClass("player1") && !$(col[i]).hasClass("player2")) {
+        if (!$(col[i]).hasClass("Red") && !$(col[i]).hasClass("Yellow")) {
              $(col[i]).addClass(activeclass);
              var colid=$(col[i]).attr("id")
           
