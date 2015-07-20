@@ -40,7 +40,14 @@ div{
 	height:100px;
 	width:100px;
 */
-
+.btn-default {
+  border-color: #fed136;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #fed136;
+}
 
 
 

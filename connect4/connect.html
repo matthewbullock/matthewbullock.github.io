@@ -19,6 +19,35 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <style>
+    .black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 25%;
+        padding: 16px;
+        border: 16px solid orange;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }
+</style>
+
 
      <script language="JavaScript">
 
@@ -86,8 +115,9 @@
   
 
 <h1>Connect Four</h1>
+
                            
-<section id = "activeplayer"><h2>Current Turn is:<span id ="red" style="color: red"> <br>Red</span> <span id ="yellow" style="display: none;color: #fed136"> <br>Yellow</span></h2></section>
+<section id = "activeplayer" style="background-color:white;"><h2 style ="color:black;"><b>Current Turn<span id ="red" style="color: red"> <br>Red</span> <span id ="yellow" style="display: none;color: #fed136"> <br>Yellow</span></b></h2></section>
 <section id ="grid"></section>
 <section id ="displayMove"</section>
 
@@ -95,10 +125,16 @@
 </div>
 
 
-</body>
-<p class = "my_beautiful_button"><button onclick="myFunction()" class="btn btn-default">New Game</button></p>
+
+
+
+<p style = "color:white;">To learn more about this project, click <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';"><span style = "color:#fed136;">here</a></span></p>
+    <div id="light" class="white_content">This is a project I set about creating within 2 days. The challenge was to create a working Cnnect Four board with a win state, that only used pure javascript.   <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
+    <div id="fade" class="black_overlay"></div></p>
 
  <button type="button" class="btn btn-default"> <a href="../index.html" > Close Project</a></button>
+
+ </body>
 
 <script>
 function myFunction() {

@@ -14,8 +14,14 @@ var row=rowvalues(id);
 console.log()
  if(haswon===true)
  {
- 	//alert("u won")
- 	alert(activeclass + " won the game.");
+ 	var answer = window.confirm(activeclass + " won the game.\n\nWould you like to play again?")
+if (answer){
+       location.reload();
+			}
+			else{
+			        //do nothing heheh
+				}
+ 	
 
  }
 };
