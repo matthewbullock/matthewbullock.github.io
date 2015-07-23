@@ -6,10 +6,7 @@ $(function() {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
-            // Prevent spam click and default submit behaviour
-            $("#btnSubmit").attr("disabled", true);
-            event.preventDefault();
-            
+            event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
@@ -21,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "/mail/contact_me.php",
+                url: "././mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -31,8 +28,7 @@ $(function() {
                 },
                 cache: false,
                 success: function() {
-                    // Enable button & show success message
-                    $("#btnSubmit").attr("disabled", false);
+                    // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -67,7 +63,8 @@ $(function() {
     });
 });
 
-// When clicking on Full hide fail/success boxes
+
+/*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
     $('#success').html('');
 });
