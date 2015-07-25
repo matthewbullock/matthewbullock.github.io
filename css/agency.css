@@ -267,6 +267,8 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.form { color: pink;}
+
 
 header {
     text-align: center;
