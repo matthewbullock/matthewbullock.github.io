@@ -267,7 +267,6 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-.form { color: pink;}
 
 
 header {
@@ -275,8 +274,8 @@ header {
     color: #fff;
     background-attachment: scroll;
 
-
-    background-image: url(../img/mewallpaper.jpg);
+    background-image: url(../mewallpaper4.jpg);
+    /*background-image: url(../img/mewallpaper.jpg);*/
 
     background-position: center center;
     background-repeat: none;
