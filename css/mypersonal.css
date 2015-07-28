@@ -51,7 +51,8 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: red;
+
 }
 
 h1,
@@ -262,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #333
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -283,6 +284,8 @@ fieldset[disabled] .btn-xl.active {
     background-size: cover;
     -o-background-size: cover;
 }
+
+#navicon{color : pink;}
 
 .intro .intro-body {
     display: table-cell;
@@ -807,7 +810,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
+    color: black;
+    background-color: #fed136;
     
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -817,7 +821,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: white;
 }
 
 .btn:focus,
