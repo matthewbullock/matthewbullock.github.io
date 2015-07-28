@@ -39,12 +39,12 @@
         top: 25%;
         left: 25%;
         width: 50%;
-        height: 25%;
+        height: 35%;
         padding: 16px;
-        border: 16px solid orange;
+        border: 16px solid #fed136;
         background-color: white;
         z-index:1002;
-        overflow: auto;
+        
     }
 </style>
 
@@ -129,7 +129,7 @@
 
 
 <p style = "color:white;">To learn more about this project, click <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';"><span style = "color:#fed136;">here</a></span></p>
-    <div id="light" class="white_content">This is a project I set about creating within 2 days. The challenge was to create a working Cnnect Four board with a win state, that only used pure javascript.   <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
+    <div id="light" class="white_content">This is a project I set about creating within two days. The challenge was to create a working Connect Four board with a win state, that only used pure javascript. This proved to be a greater challenge than initially anticipate due to the logic that went behind the winning state. The issue was that a player could win, with four pieces in any given row or column, however they pieces did not have to be in order. In the end, a rather complicated algorithm was used which I will be happy to share with anyone that is interested.<a href = "javascript:void(0)" style = "color:red;"onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
     <div id="fade" class="black_overlay"></div></p>
 
  <button type="button" class="btn btn-default"> <a href="../index.html" > Close Project</a></button>
