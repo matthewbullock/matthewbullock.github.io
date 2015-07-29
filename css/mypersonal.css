@@ -37,7 +37,7 @@ p.large {
 
 #mylist ul { text-align: center; display: inline-block;}
 
-#mylist li {display: inline-block;} 
+#mylist li {display: inline-block;padding-top: 8px;} 
 
 a,
 a:hover,
