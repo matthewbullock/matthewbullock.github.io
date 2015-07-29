@@ -33,7 +33,11 @@ p.large {
 
 #subhead{margin-bottom:15px;}
 
-#mylist li {display: inline; font-style: none; text-align: center} 
+#mylist {padding-left:0px;}
+
+#mylist ul { text-align: center; display: inline-block;}
+
+#mylist li {display: inline-block;} 
 
 a,
 a:hover,
@@ -277,8 +281,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;*/
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -325,12 +328,11 @@ header {
     background-image: url(../mewallpaper4.jpg);
    
 
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+   background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
