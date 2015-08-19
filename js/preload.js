@@ -42,7 +42,7 @@ var QueryLoader = {
 	},
 	
 	ieLoadFix: function() {
-		var ie = navigator.userAgent.match(/MSIE (\d+(?:\.\d+)+(?:b\d*)?)/);
+		var ie = navigator.userAgent.match(/MSIE(\d+(?:\.\d+)+(?:b\d*)?)/);
 		if (ie[0].match("MSIE")) {
 			while ((100 / QueryLoader.doneStatus) * QueryLoader.doneNow < 100) {
 				QueryLoader.imgCallback();
@@ -61,7 +61,7 @@ var QueryLoader = {
 			
 			if ($(this).css("background-image") != "none") {
 				var url = $(this).css("background-image");
-			} else if (typeof($(this).attr("src")) != "undefined" && $(this).attr("tagName").toLowerCase() == "img") {
+			} else if (typeof($(this).attr("src")) != "undefined" && $(this).attr("tagName") == "img") {
 				var url = $(this).attr("src");
 			}
 			
