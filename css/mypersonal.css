@@ -4,12 +4,23 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ .QOverlay {
+    background-color: red;
+    z-index: 9999;
+}
+
+.QLoader {
+    background-color: pink;
+    height: 1px;
+}
+
 
 
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 
 
 
