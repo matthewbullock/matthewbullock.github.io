@@ -5,13 +5,13 @@
  */
 
  .QOverlay {
-    background-color: red;
+    background-color: yellow;
     z-index: 9999;
 }
 
 .QLoader {
-    background-color: pink;
-    height: 1px;
+    background-color: black;
+    height: 5px;
 }
 
 
