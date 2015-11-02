@@ -20,14 +20,31 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: whitesmoke;
+    background: url(../mewallpaper4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.modal-content{
+ background: url(../mewallpaper4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 767px){
+    .somelovelypadding{padding-top: 160px;}
 }
 
 
 
-
-
 .text-muted {
-    color: #777;
+    color: whitesmoke;
 }
 
 .text-primary {
@@ -35,12 +52,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #subhead{margin-bottom:15px;}
@@ -49,7 +66,7 @@ p.large {
 
 #mylist ul { text-align: center; display: inline-block;}
 
-#mylist li {display: inline-block;padding-top: 8px;} 
+#mylist li {display: inline-block;padding-top: 8px; font-size: 18px;} 
 
 a,
 a:hover,
@@ -67,7 +84,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: red;
+    color: #209898;
 
 }
 
@@ -307,8 +324,10 @@ fieldset[disabled] .btn-xl.active {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
-    font-size: 40px;
+@media screen and (max-width: 767px) {
+        .intro .intro-body .brand-heading {
+            font-size: 63px;
+        }
 }
 
 .intro .intro-body .intro-text {
@@ -336,15 +355,6 @@ header {
     color: #fff;
     background-attachment: scroll;
 
-    
-  
-   
-
-  background: url(../mewallpaper4.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 
@@ -407,7 +417,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -461,7 +471,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #333;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -478,7 +488,8 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    color: #333;
+    background-color: whitesmoke;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -491,6 +502,8 @@ section h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    color: #333;
+
 }
 
 #portfolio * {
@@ -728,7 +741,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #333;
+  
     /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
@@ -859,10 +872,12 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
+    color: #fff;
 }
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    color: #fff;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -870,15 +885,17 @@ ul.social-buttons li a:active {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    color: #fff;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+    color: #fff;
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    
 }
 
 .portfolio-modal .close-modal {
@@ -900,7 +917,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #fed136;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -910,7 +927,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #fed136;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

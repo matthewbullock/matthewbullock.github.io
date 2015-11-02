@@ -28,9 +28,11 @@ var cbpAnimatedHeader = (function() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+			classie.remove ( header, 'hidenav')
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
+			classie.add ( header, 'hidenav')
 		}
 		didScroll = false;
 	}
