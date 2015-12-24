@@ -23,10 +23,9 @@ body {
     color: whitesmoke;
     
     background: url(../wallpaper2.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+   
+    background-size:100%;
+    width:100%;
 }
 
 #blackOverlay{ background-color: black;
@@ -222,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fed136;
 }
 
 .navbar-default .navbar-brand {
@@ -243,7 +242,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #fed136;
-    background-color: #fed136;
+    background-color: #333;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
