@@ -177,7 +177,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #333;
     background-color: #fed136;
 }
 
@@ -187,7 +187,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
-    color: #fff;
+    color: whitesmoke;
     background-color: #fec503;
 }
 
@@ -286,7 +286,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: fed136;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
