@@ -293,7 +293,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -309,7 +309,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 .intro {
@@ -928,7 +928,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
+    width: 3px;
     height: 75px;
     margin-left: 35px;
     background-color: #fed136;
@@ -939,7 +939,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
+    width: 3px;
     height: 75px;
     background-color: #fed136;
     -webkit-transform: rotate(90deg);
